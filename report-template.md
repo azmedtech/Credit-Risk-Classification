@@ -38,4 +38,3 @@ Summarize the results of the machine learning models, and include a recommendati
 
     In this exercise, the performance of the model does depend on what we are trying to predict. For predicting healthy loans, the model has perfect precision (1.00) and high recall (0.99), indicating that it correctly identifies almost all healthy loans and rarely misclassifies them. This is crucial for minimizing false positives in this category. However, for predicting high-risk loans, the model has slightly lower precision (0.84), but still has good recall (0.94), resulting in a balanced F-score of 0.89. This means that while it correctly identifies most high-risk loans, there is a slightly higher chance of false positives in this category.
 
-If you do not recommend any of the models, please justify your reasoning.
