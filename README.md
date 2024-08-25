@@ -21,7 +21,7 @@ In this project, a machine learning model was developed for credit risk classifi
 
 The credit risk classification analysis project successfully developed a logistic regression model to predict credit risk categories for loans based on historical lending data. The model achieved high accuracy in distinguishing between healthy and high-risk loans, with precision scores of 1.00 for healthy loans and 0.84 for high-risk loans. Additionally, the model demonstrated recall scores of 0.99 for healthy loans and 0.94 for high-risk loans, indicating its effectiveness in correctly identifying loan categories. The analysis report recommends the model for credit risk prediction, highlighting its strong performance metrics and balanced approach in risk assessment for the company.
 
-![Map Figure](Resources/map_figure.png)
+<img src="Resources/map_figure.png" alt="Map Figure">
   
 # Tools/Libraries/Languages Used
 * Python
