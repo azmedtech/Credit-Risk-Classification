@@ -5,11 +5,11 @@
 The purpose of this analysis was to develop a classification model to predict and categorize credit risk. The goal was to use machine learning algorithms to assess the creditworthiness of loan applicants and classify them into either healthy loans or high-risk loans based on various financial attributes. The data used in the analysis included information on 77536 loans, and included the loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, total debt, and loan status for each applicant. The model will predict the loan status for the applicant, which has been classified as either healthy or high-risk.
 
 The stages of the machine learning process for this analysis were as follows:
-    * Data Preparation: Importing the dataset, exploring the features, and preparing the data for modeling.
-    * Data Splitting: Separating the data into features and labels, and splitting it into training and testing sets.
-    * Model Selection: Choosing a suitable classification algorithm for the task, in this case logistic regression.
-    * Model Training: Fitting the selected model on the training data.
-    * Model Evaluation: Assessing the model's performance using metrics like accuracy, precision, recall, and F1 score.
+1. Data Preparation: Importing the dataset, exploring the features, and preparing the data for modeling.
+2. Data Splitting: Separating the data into features and labels, and splitting it into training and testing sets.
+3. Model Selection: Choosing a suitable classification algorithm for the task, in this case logistic regression.
+4. Model Training: Fitting the selected model on the training data.
+5. Model Evaluation: Assessing the model's performance using metrics like accuracy, precision, recall, and F1 score.
  
 The primary model utilized in this analysis was logistic regression from the scikit-learn library. Additionally, supporting functions like train_test_split for data splitting, and evaluation functions like confusion_matrix and classification_report were used to assess the model's performance. The analysis also involved comparing multiple classification algorithms to determine the most effective model for predicting credit risk.
 
